@@ -1,0 +1,28 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Local config that should never be shared
+*.xcconfig.local
+
+# Nothing in this project stores credentials on disk — Dexcom sign-in lives in
+# the iOS Keychain — but exports contain complete medical history, so keep them
+# out of version control by accident-proofing the patterns.
+GlucoNoir-*.csv
+GlucoNoir-*.json
+spike-log.txt

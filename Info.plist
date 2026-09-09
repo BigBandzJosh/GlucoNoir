@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>GlucoNoir reads glucose readings directly from your Dexcom G7 sensor over Bluetooth.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>GlucoNoir reads your historical glucose data from Apple Health to fill in up to 90 days of past readings. Live readings come from Dexcom Share, not Health.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+	</array>
+</dict>
+</plist>
